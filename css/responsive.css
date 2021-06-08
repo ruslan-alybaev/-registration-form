@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+    body {
+        height: unset;
+    }
+
+    #sign-up {
+        flex-direction: column;
+    }
+
+    #sign-up .left-block {
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+
+    #sign-up .left-block h2 {
+        transform: unset;
+        margin: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    #sign-up .right-block form .input-data {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    #sign-up .right-block .signup-footer {
+        flex-direction: column;
+    }
+
+    #sign-up .right-block .signup-footer .login {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    #sign-up .right-block .signup-footer button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1441px) {
+    #sign-up .right-block .title h5 {
+        font-size: 32px;
+    }
+}
